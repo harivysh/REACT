@@ -12,7 +12,7 @@ class CompA extends React.Component{
             <React.Fragment>
               <h1> COMPONENT A</h1>
               <hr />
-              <CompB Id={this.eId}  Name={this.eName} />
+              <CompB Id={this.eId}  Name={this.eName} Member={this.eMember} />
             </React.Fragment>
         )
     }
